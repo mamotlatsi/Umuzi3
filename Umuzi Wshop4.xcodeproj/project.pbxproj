@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC755C2B25010AF800DD928B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC755C2A25010AF800DD928B /* AppDelegate.swift */; };
+		CC755C3225010AF800DD928B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC755C3025010AF800DD928B /* Main.storyboard */; };
+		CC755C3425010AFC00DD928B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC755C3325010AFC00DD928B /* Assets.xcassets */; };
+		CC755C3725010AFC00DD928B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC755C3525010AFC00DD928B /* LaunchScreen.storyboard */; };
+		CC755C4525010BA200DD928B /* UMRepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC755C4425010BA200DD928B /* UMRepositoryListViewController.swift */; };
+		CC755C4725010BB100DD928B /* UMRepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC755C4625010BB100DD928B /* UMRepositoryDetailsViewController.swift */; };
+		CC755C4A2501118600DD928B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC755C492501118600DD928B /* Repository.swift */; };
+		CC755C4E2501146C00DD928B /* UMRepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC755C4C2501146C00DD928B /* UMRepoTableViewCell.swift */; };
+		CC755C4F2501146C00DD928B /* UMRepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC755C4D2501146C00DD928B /* UMRepoTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC755C2725010AF800DD928B /* Umuzi Wshop4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Umuzi Wshop4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC755C2A25010AF800DD928B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC755C3125010AF800DD928B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC755C3325010AFC00DD928B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC755C3625010AFC00DD928B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC755C3825010AFC00DD928B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC755C4425010BA200DD928B /* UMRepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMRepositoryListViewController.swift; sourceTree = "<group>"; };
+		CC755C4625010BB100DD928B /* UMRepositoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMRepositoryDetailsViewController.swift; sourceTree = "<group>"; };
+		CC755C492501118600DD928B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		CC755C4C2501146C00DD928B /* UMRepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMRepoTableViewCell.swift; sourceTree = "<group>"; };
+		CC755C4D2501146C00DD928B /* UMRepoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UMRepoTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC755C2425010AF800DD928B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC755C1E25010AF800DD928B = {
+			isa = PBXGroup;
+			children = (
+				CC755C2925010AF800DD928B /* Umuzi Wshop4 */,
+				CC755C2825010AF800DD928B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC755C2825010AF800DD928B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C2725010AF800DD928B /* Umuzi Wshop4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC755C2925010AF800DD928B /* Umuzi Wshop4 */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C2A25010AF800DD928B /* AppDelegate.swift */,
+				CC755C4025010B5700DD928B /* Storyboards */,
+				CC755C3F25010B3400DD928B /* Navigations */,
+				CC755C3E25010B2800DD928B /* Supported Files */,
+			);
+			path = "Umuzi Wshop4";
+			sourceTree = "<group>";
+		};
+		CC755C3E25010B2800DD928B /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C3325010AFC00DD928B /* Assets.xcassets */,
+				CC755C3825010AFC00DD928B /* Info.plist */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		CC755C3F25010B3400DD928B /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C4125010B6400DD928B /* Repository */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
+		CC755C4025010B5700DD928B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C3025010AF800DD928B /* Main.storyboard */,
+				CC755C3525010AFC00DD928B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CC755C4125010B6400DD928B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C4325010B7700DD928B /* Details */,
+				CC755C4225010B7200DD928B /* List */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		CC755C4225010B7200DD928B /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C4B2501143A00DD928B /* Components */,
+				CC755C482501116F00DD928B /* Models */,
+				CC755C4425010BA200DD928B /* UMRepositoryListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CC755C4325010B7700DD928B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C4625010BB100DD928B /* UMRepositoryDetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		CC755C482501116F00DD928B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C492501118600DD928B /* Repository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC755C4B2501143A00DD928B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CC755C4C2501146C00DD928B /* UMRepoTableViewCell.swift */,
+				CC755C4D2501146C00DD928B /* UMRepoTableViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC755C2625010AF800DD928B /* Umuzi Wshop4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC755C3B25010AFC00DD928B /* Build configuration list for PBXNativeTarget "Umuzi Wshop4" */;
+			buildPhases = (
+				CC755C2325010AF800DD928B /* Sources */,
+				CC755C2425010AF800DD928B /* Frameworks */,
+				CC755C2525010AF800DD928B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Umuzi Wshop4";
+			productName = "Umuzi Wshop4";
+			productReference = CC755C2725010AF800DD928B /* Umuzi Wshop4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC755C1F25010AF800DD928B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Urey;
+				TargetAttributes = {
+					CC755C2625010AF800DD928B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = CC755C2225010AF800DD928B /* Build configuration list for PBXProject "Umuzi Wshop4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC755C1E25010AF800DD928B;
+			productRefGroup = CC755C2825010AF800DD928B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC755C2625010AF800DD928B /* Umuzi Wshop4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC755C2525010AF800DD928B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC755C3725010AFC00DD928B /* LaunchScreen.storyboard in Resources */,
+				CC755C3425010AFC00DD928B /* Assets.xcassets in Resources */,
+				CC755C3225010AF800DD928B /* Main.storyboard in Resources */,
+				CC755C4F2501146C00DD928B /* UMRepoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC755C2325010AF800DD928B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC755C4E2501146C00DD928B /* UMRepoTableViewCell.swift in Sources */,
+				CC755C4725010BB100DD928B /* UMRepositoryDetailsViewController.swift in Sources */,
+				CC755C2B25010AF800DD928B /* AppDelegate.swift in Sources */,
+				CC755C4525010BA200DD928B /* UMRepositoryListViewController.swift in Sources */,
+				CC755C4A2501118600DD928B /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC755C3025010AF800DD928B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC755C3125010AF800DD928B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC755C3525010AFC00DD928B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC755C3625010AFC00DD928B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC755C3925010AFC00DD928B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC755C3A25010AFC00DD928B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC755C3C25010AFC00DD928B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KPY2QXUZJ7;
+				INFOPLIST_FILE = "Umuzi Wshop4/Supported Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umuzi.Umuzi-Wshop4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC755C3D25010AFC00DD928B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KPY2QXUZJ7;
+				INFOPLIST_FILE = "Umuzi Wshop4/Supported Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umuzi.Umuzi-Wshop4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC755C2225010AF800DD928B /* Build configuration list for PBXProject "Umuzi Wshop4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC755C3925010AFC00DD928B /* Debug */,
+				CC755C3A25010AFC00DD928B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC755C3B25010AFC00DD928B /* Build configuration list for PBXNativeTarget "Umuzi Wshop4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC755C3C25010AFC00DD928B /* Debug */,
+				CC755C3D25010AFC00DD928B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC755C1F25010AF800DD928B /* Project object */;
+}
